@@ -109,5 +109,36 @@ filters.addEventListener("reset", () => setTimeout(render));
 
 render();
 
+// Countdown to the next 2 December (month is 0-based, so 11 = December)
+const BIRTHDAY_MONTH = 11;
+const BIRTHDAY_DAY = 2;
+const countdownLabel = document.getElementById("countdown-label");
+const countdownUnits = document.getElementById("countdown-units");
+const pad = n => String(n).padStart(2, "0");
+
+function updateCountdown() {
+  const now = new Date();
+  const isBirthday = now.getMonth() === BIRTHDAY_MONTH && now.getDate() === BIRTHDAY_DAY;
+  if (isBirthday) {
+    countdownLabel.textContent = "It's my birthday today! 🎂";
+    countdownUnits.hidden = true;
+    return;
+  }
+
+  let next = new Date(now.getFullYear(), BIRTHDAY_MONTH, BIRTHDAY_DAY);
+  if (next < now) next = new Date(now.getFullYear() + 1, BIRTHDAY_MONTH, BIRTHDAY_DAY);
+
+  const secs = Math.floor((next - now) / 1000);
+  countdownLabel.textContent = "Countdown to my birthday";
+  countdownUnits.hidden = false;
+  document.getElementById("cd-days").textContent = Math.floor(secs / 86400);
+  document.getElementById("cd-hours").textContent = pad(Math.floor(secs / 3600) % 24);
+  document.getElementById("cd-minutes").textContent = pad(Math.floor(secs / 60) % 60);
+  document.getElementById("cd-seconds").textContent = pad(secs % 60);
+}
+
+updateCountdown();
+setInterval(updateCountdown, 1000);
+
 // Show the welcome notes every time the page opens
 document.getElementById("welcome").showModal();

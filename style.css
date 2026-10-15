@@ -81,6 +81,35 @@ h1 {
 
 .intro { max-width: 38rem; margin: 0; color: var(--muted); font-size: 1.05rem; }
 
+/* Birthday countdown */
+.countdown { display: grid; gap: .5rem; margin-top: .75rem; }
+.countdown-label {
+  margin: 0;
+  font-family: var(--font-mono);
+  font-size: .8rem;
+  letter-spacing: .12em;
+  text-transform: uppercase;
+  color: var(--accent);
+}
+.countdown-units { display: flex; flex-wrap: wrap; gap: .6rem; }
+.countdown-units div {
+  display: grid;
+  justify-items: center;
+  min-width: 4.5rem;
+  padding: .6rem .75rem .5rem;
+  background: var(--tag);
+  border: 1.5px solid var(--tag-edge);
+  border-radius: 8px;
+}
+.countdown-units span {
+  font-family: var(--font-mono);
+  font-size: 1.9rem;
+  line-height: 1.1;
+  font-variant-numeric: tabular-nums;
+  color: var(--fg);
+}
+.countdown-units small { font-size: .78rem; color: var(--muted); }
+
 /* Filter bar */
 .filters {
   display: flex;

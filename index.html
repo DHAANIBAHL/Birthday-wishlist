@@ -7,7 +7,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Shrikhand&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,700&family=DM+Mono:wght@500&display=swap">
-  <link rel="stylesheet" href="style.css?v=2">
+  <link rel="stylesheet" href="style.css?v=3">
 </head>
 <body>
   <dialog class="welcome" id="welcome" aria-labelledby="welcome-title">
@@ -25,9 +25,19 @@
   <div class="wrap">
     <header>
       <div class="bunting" aria-hidden="true"></div>
-      <p class="eyebrow">Birthday wishlist</p>
+      <p class="eyebrow">Birthday wishlist · 2 December</p>
       <h1>Dhaani's Birthday Wishlist</h1>
       <p class="intro">A few things I've had my eye on. Click any tag to open it in the shop where I found it.</p>
+
+      <div class="countdown" id="countdown" aria-live="off">
+        <p class="countdown-label" id="countdown-label">Countdown to my birthday</p>
+        <div class="countdown-units" id="countdown-units">
+          <div><span id="cd-days">--</span><small>days</small></div>
+          <div><span id="cd-hours">--</span><small>hours</small></div>
+          <div><span id="cd-minutes">--</span><small>minutes</small></div>
+          <div><span id="cd-seconds">--</span><small>seconds</small></div>
+        </div>
+      </div>
     </header>
 
     <form class="filters" id="filters" aria-label="Filter the wishlist">
@@ -67,6 +77,6 @@
     <p class="note">Prices are what they were when I added them and may have changed.</p>
   </div>
 
-  <script src="script.js?v=2"></script>
+  <script src="script.js?v=3"></script>
 </body>
 </html>
