@@ -18,8 +18,6 @@ const WISHLIST = [
   { name: "PRO Daily Anti-Dandruff Shampoo", note: "For an itchy, flaky scalp. 225ml.", store: "Trigaine", price: 370, link: "https://trigaine.com/products/trigaine-pro-daily-anti-dandruff-shampoo", image: "https://cdn.shopify.com/s/files/1/0941/2850/5122/files/trigaine-pro-6acca53da014b.webp?v=1791796615&width=600" },
   { name: "Invisible Necklace Chain", note: "Gold tone with a green stone pendant.", store: "Meesho", price: 138, link: "https://www.meesho.com/s/p/fhmbtn", image: "images/meesho-1.jpg" },
   { name: "Green Lotus Kundan Invisible Necklace", note: "Gold plated, adjustable.", store: "Meesho", price: 148, link: "https://www.meesho.com/s/p/djfcr0", image: "images/meesho-2.jpg" },
-  { name: "Invisible Lotus Chain", note: "Pink and green lotus pendant.", store: "Meesho", price: 131, link: "https://www.meesho.com/s/p/h2zs6t", image: "images/meesho-3.jpg" },
-  { name: "Kembu Attigai Earrings", note: "One gram gold coated, with pearls.", store: "Meesho", price: 164, link: "https://www.meesho.com/s/p/69ovkx", image: "images/meesho-4.jpg" },
   { name: "Gold-Tone Heart Hoop Earrings", note: "Minimal heart-shaped hoops.", store: "Meesho", price: 152, link: "https://www.meesho.com/s/p/hl22b5", image: "images/meesho-5.jpg" },
   { name: "Silver Oxidised Long Pearl Earrings", note: "Handmade, 10 cm long.", store: "Meesho", price: 128, link: "https://www.meesho.com/s/p/bpqom1", image: "images/meesho-6.jpg" },
   { name: "Boho Black Filigree Danglers", note: "Vintage oxidised finish.", store: "Meesho", price: 166, link: "https://www.meesho.com/s/p/hfae3x", image: "images/meesho-7.jpg" },
