@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <rect width="64" height="64" rx="14" fill="#7b2cbf"/>
+  <!-- bow -->
+  <path d="M32 23 C27 11 15 12 19 20 C21 23 27 23 32 23 Z" fill="#e0c3fc"/>
+  <path d="M32 23 C37 11 49 12 45 20 C43 23 37 23 32 23 Z" fill="#e0c3fc"/>
+  <!-- box and lid -->
+  <rect x="15" y="31" width="34" height="21" rx="2" fill="#f5f0fc"/>
+  <rect x="11" y="22" width="42" height="10" rx="2.5" fill="#e0c3fc"/>
+  <!-- ribbon -->
+  <rect x="29" y="22" width="6" height="30" fill="#3c096c"/>
+</svg>
