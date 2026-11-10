@@ -22,6 +22,7 @@ const WISHLIST = [
   { name: "Oxidised Elephant Earrings", note: "Oxidised silver with pearl beads. Set of 2.", store: "Meesho", price: 164, link: "https://www.meesho.com/s/p/99dci8", image: "images/meesho-8.jpg" },
   { name: "Wide Palazzo Pants", note: "Light blue chambray. Size 8XL-50.", store: "Zivakey", price: 1299, link: "https://zivakey.com/products/women-grey-solid-wide-palazzo-pants-wfpb?variant=45745711972421", image: "https://cdn.shopify.com/s/files/1/0760/9011/4117/files/chambray_pants_pocket_detail_1.webp?v=1789327498&width=600" },
   { name: "Hania Lucknowi Chikankari Kurti", note: "Green cotton. Size 50 (5XL).", store: "Chikirpolo", price: 1495, link: "https://chikirpolo.com/products/lucknow-chikankari-kurti-cotton?variant=51502519222571", image: "https://cdn.shopify.com/s/files/1/0713/5445/0219/files/GRNPPN.jpg?v=1783399599&width=600" },
+  { name: "Adya Chikankari Dyed Short Kurti", note: "Wine.", store: "Poshak Chikan Studio", price: 999, link: "https://poshakchikanstudio.com/products/adya-chikankari-dyed-short-kurti?variant=49069462323514", image: "https://cdn.shopify.com/s/files/1/0712/2141/2154/files/adya-chikankari-dyed-short-kurti-wine.jpg?v=1775761077&width=600" },
 ];
 
 const grid = document.getElementById("grid");
