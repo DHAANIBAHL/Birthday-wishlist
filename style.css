@@ -281,15 +281,7 @@ h1 {
 }
 .welcome ol { display: grid; gap: .75rem; margin: 0 0 1.5rem; padding-left: 1.25rem; }
 .welcome li::marker { font-family: var(--font-mono); color: var(--accent); }
-.welcome ol:has(+ .disclaimer) { margin-bottom: 1rem; }
-.disclaimer {
-  margin: 0 0 1.5rem;
-  padding: .7rem .85rem;
-  border-left: 3px solid var(--tag-edge);
-  font-size: .88rem;
-  font-style: italic;
-  color: var(--muted);
-}
+.welcome-note { margin: 0 0 1.5rem; font-size: 1.05rem; }
 .welcome form { display: flex; }
 .welcome button {
   flex: 1;
