@@ -11,7 +11,7 @@ My birthday is on **2 Dec**, and my friends will wonder what I might want. This 
 ## Features
 
 - Wishlist items shown as gift tags with a photo, name, note, price, and the shop's name
-- Click any tag to open the product on the shop's website (Meesho, MARS Cosmetics, Trigaine, Zivakey, Chikirpolo, Poshak Chikan Studio, CeCe Beauty, Amazon)
+- Click any tag to open the product on the shop's website (Meesho, MARS Cosmetics, Trigaine, Zivakey, Chikirpolo, Poshak Chikan Studio, CeCe Beauty, Amazon, Nykaa)
 - Filter by price range and shop, and sort by price
 - Live countdown to my birthday
 - A welcome note that pops up when the site opens
