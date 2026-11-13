@@ -27,7 +27,7 @@ const WISHLIST = [
   { name: "Hania Lucknowi Chikankari Kurti", note: "Green cotton. Size 50 (5XL).", store: "Chikirpolo", price: 1495, link: "https://chikirpolo.com/products/lucknow-chikankari-kurti-cotton?variant=51502519222571", image: "https://cdn.shopify.com/s/files/1/0713/5445/0219/files/GRNPPN.jpg?v=1783399599&width=600" },
   { name: "Flower Lucknowi Chikankari Kurti", note: "Purple cotton. Size 50 (5XL).", store: "Chikirpolo", price: 1495, link: "https://chikirpolo.com/products/lucknowi-chikankari-kurti-cotton-12?variant=51746423210283", image: "https://cdn.shopify.com/s/files/1/0713/5445/0219/files/FLWRPRPL.jpg?v=1768827934&width=600" },
   { name: "Flower Lucknowi Chikankari Kurti", note: "Green cotton. Size 50 (5XL).", store: "Chikirpolo", price: 1495, link: "https://chikirpolo.com/products/lucknowi-chikankari-kurti-cotton-12?variant=51746420916523", image: "https://cdn.shopify.com/s/files/1/0713/5445/0219/files/FLWRGREEN.jpg?v=1768832145&width=600" },
-  { name: "Adya Chikankari Dyed Short Kurti", note: "Wine.", store: "Poshak Chikan Studio", price: 999, link: "https://poshakchikanstudio.com/products/adya-chikankari-dyed-short-kurti?variant=49069462323514", image: "https://cdn.shopify.com/s/files/1/0712/2141/2154/files/adya-chikankari-dyed-short-kurti-wine.jpg?v=1775761077&width=600" },
+  { name: "Adya Chikankari Dyed Short Kurti", note: "Wine. Size 3XL.", store: "Poshak Chikan Studio", price: 999, link: "https://poshakchikanstudio.com/products/adya-chikankari-dyed-short-kurti?variant=49803580637498", image: "https://cdn.shopify.com/s/files/1/0712/2141/2154/files/adya-chikankari-dyed-short-kurti-wine.jpg?v=1775761077&width=600" },
 ];
 
 const grid = document.getElementById("grid");
