@@ -19,7 +19,6 @@ const WISHLIST = [
   { name: "Invisible Necklace Chain", note: "Gold tone with a green stone pendant.", store: "Meesho", price: 138, link: "https://www.meesho.com/s/p/fhmbtn", image: "images/meesho-1.jpg" },
   { name: "Green Lotus Kundan Invisible Necklace", note: "Gold plated, adjustable.", store: "Meesho", price: 148, link: "https://www.meesho.com/s/p/djfcr0", image: "images/meesho-2.jpg" },
   { name: "Gold-Tone Heart Hoop Earrings", note: "Minimal heart-shaped hoops.", store: "Meesho", price: 152, link: "https://www.meesho.com/s/p/hl22b5", image: "images/meesho-5.jpg" },
-  { name: "Silver Oxidised Long Pearl Earrings", note: "Handmade, 10 cm long.", store: "Meesho", price: 128, link: "https://www.meesho.com/s/p/bpqom1", image: "images/meesho-6.jpg" },
   { name: "Boho Black Filigree Danglers", note: "Vintage oxidised finish.", store: "Meesho", price: 166, link: "https://www.meesho.com/s/p/hfae3x", image: "images/meesho-7.jpg" },
   { name: "Oxidised Elephant Earrings", note: "Oxidised silver with pearl beads. Set of 2.", store: "Meesho", price: 164, link: "https://www.meesho.com/s/p/99dci8", image: "images/meesho-8.jpg" },
   { name: "Wide Palazzo Pants", note: "Light blue chambray. Size 8XL-50.", store: "Zivakey", price: 1299, link: "https://zivakey.com/products/women-grey-solid-wide-palazzo-pants-wfpb?variant=45745711972421", image: "https://cdn.shopify.com/s/files/1/0760/9011/4117/files/chambray_pants_pocket_detail_1.webp?v=1789327498&width=600" },
